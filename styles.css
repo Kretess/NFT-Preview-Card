@@ -1,0 +1,102 @@
+* {
+  font-family: Outfit;
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.background {
+  text-align: center;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  display: inline-block;
+  margin-top: 2em;
+  width: 350px;
+  border-radius: 25px;
+  box-shadow: -10px 25px 50px hsl(216, 81%, 8%);
+}
+.Equilibrium {
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+.Equilibrium:link :visited {
+  color: hsl(178, 100%, 50%);
+}
+.Equilibrium:hover {
+  background: url("images/favicon-32x32.png") no-repeat;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.card-desc {
+  text-align: left;
+  margin: 0 20px;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.Row1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 100px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.Row1-Col1 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.Row1-Col2 {
+  color: hsl(215, 51%, 70%);
+}
+.eth-icon {
+  margin-right: 8px;
+}
+.clock-icon {
+  margin-right: 8px;
+}
+.hr-break {
+  background-color: hsl(215, 32%, 27%);
+  border: 1px solid hsl(215, 32%, 27%);
+  width: 300px;
+  margin-bottom: 20px;
+}
+.Row2 {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+.Creator-Icon {
+  flex: 1 0 200px;
+  height: 27px;
+  width: 27px;
+  border-color: #fff;
+  margin-left: 20px;
+  margin-bottom: 0;
+  border: 1px solid #fff;
+  border-radius: 1000px;
+}
+.MyName {
+  color: hsl(0, 0%, 100%);
+}
